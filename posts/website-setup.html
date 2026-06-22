@@ -30,15 +30,27 @@
 
             <h1> How to use my website's template </h1>
 
-            <p> I feel like common academic website templates, such as <a href="https://academicpages.github.io/"> Academic pages </a>, are clumsy, with too many functionalities. I wanted something much more simple to edit and use. Hence, I created this template, which you can freely fork from GitHub and use. </p>
+            <p> I feel like common academic website templates, such as <a href="https://academicpages.github.io/">Academic pages</a>, are clumsy, with too many functionalities. I wanted something much more simple to edit and use. Hence, I created this template, which you can freely fork from GitHub and use. </p>
 
-            <h2> Setup </h2>
+            <h2> Forking the repository </h2>
 
-            <p> First thing first, clone the <a href="https://github.com/JulienBez/julienbez.github.io"> template's GitHub repository </a>. Once it is done, you can edit the different files to add your personal information and style. The website structure looks like that: </p>
+            <p> First thing first, fork the <a href="https://github.com/JulienBez/julienbez.github.io">template's GitHub repository</a>. Once it is done, you can edit the different files to add your own information and style. The website structure looks like that: </p>
 
-            <img src="/images/website-structure.png" alt="Website struture">
+            <img src="/img/website-structure.png" alt="Website struture">
 
-            
+            <p> The <b>index.html</b> is the homepage of the website. It is important that its name remains the same to setup the website with GitHub Pages. The <b>css</b> directory contains the style of the website. </p>
+
+            <h2> Customization </h2>
+
+            <p> This template's goal was to make it easy to customize. If you want to add a page to your website, add a file with your new page name in the <b>pages</b> directory. Then, add a link to this page in the navigation bar (in the <b>utils/topnav.html</b> file). To remove a page, remove the page from the <b>pages</b> directory and from the <b>utils/topnav.html</b> file. </p>
+
+            <p> The easiest way to add a page would be to copy/paste and rename the <b>posts/template.html</b> file, as it only contains the main structure of the page. Otherwise, this is just a HTML/CSS website, you can easily edit it to match your own tastes ! </p>
+
+            <h2> Setting-up the website </h2>
+
+            <p> Once you finished customizing your website's template, push your changes on your GitHub. From there, go to your GitHub repository, navigate to <b>Settings/Pages</b> and make sure that the <b>Source</b> is <b>Deploy from a branch</b>. You can specify which branch to use under the <b>Branch</b> parameter. </p>
+
+            <p> Et voilà ! You now have your very own website. Pushing new changes to the correct branch will initiate an update of your website, without the need to do anything. To take a look at the current state of your website, you can visit the <b>Deployments</b> tab of your repository. Warning: each update takes some minutes to perform. </p>
 
         </div>
 
