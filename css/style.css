@@ -2,10 +2,12 @@
 
 :root{
   --color1: #ffffff;
-  --color2: #494b47;
-  --color3: #333;
+  --color2: #386641; 
+  --color3: #000000;
   --color4: #f1f1f1;
-  --color5: #7db458;
+  --color5: #bc4749;
+  --color6: #a7c957;
+  --color7: #ffffff;
 }
 
 /* GENERAL PURPOSE */
@@ -86,6 +88,17 @@ table, th, td {
   margin: 0 auto;
   padding: 40px;
   margin-bottom: 40px;
+}
+
+.multi-container-updown {
+  display: block;
+  margin: 0 auto;
+  width: min(1200px, 100%);
+  border: 2px solid var(--color6);
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 40px; /* espace entre les blocs */
+  background-color: var(--color7);
 }
 
 .multi-container {
