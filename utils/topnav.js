@@ -11,6 +11,19 @@ function setActiveLink() {
 }
 
 
+function toggleMenu() {
+    var x = document.getElementById("topnav-id");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } 
+
+    else {
+        x.className = "topnav";
+    }
+  }
+
+  
 document.addEventListener("DOMContentLoaded", function() {
 
     const url = "/utils/topnav.html"
@@ -33,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         .catch((error) => {
             topnav.innerText = `Error: ${error.message}`;
-            // window.location = "pages/404.html";
         });
         
 });

@@ -1,4 +1,4 @@
-/* multi-container layout stacks when screen too smal */
+/* multi-container layout stacks when screen too small */
 @media screen and (max-width: 768px) {
     .multi-container {
         flex-direction: column;
